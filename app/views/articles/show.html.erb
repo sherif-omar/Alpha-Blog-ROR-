@@ -1,0 +1,21 @@
+
+
+<p>
+  <strong>ID:</strong>
+  <%= @article.id %>
+</p>
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @article.description %>
+</p>
+<div class="col-sm-11 center link-to">
+ [ <%= link_to 'Update Article', edit_article_path(@article) %> |
+  <%= link_to 'Return to Articles', articles_path %> ]
+</div>

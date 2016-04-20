@@ -1,0 +1,83 @@
+$navbar-default-bg: #0c0c2a;
+$navbar-default-color: #FFF;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-shadow: 1px 3px rgba(250,250,250,0.20);
+}
+
+
+#logo:hover {
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 1px 3px rgba(10,10,10,0.20);
+}
+
+.center {
+    text-align: center;
+}
+
+li{
+    color: #FFF;
+}
+
+.jumbotron {
+    background-image: asset-url('bg-cover.png');
+    background-size: cover;
+    height: 550px;
+    
+}
+
+.jumbotron h1{
+    margin: -30px;
+    margin-bottom: 20px;
+    color: #FFF;
+    
+}
+.btn-xlarge {
+    background-color: #85271b;
+    font-size: 1.7em;
+}
+
+.btn-xlarge:hover {
+    background: #333;
+}
+
+#footer {
+    background-color: #0c0c2a;
+    color: #FFF;
+    margin-bottom: 0px;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+#footer strong {
+    float: left;
+}
+#footer li {
+    float: right;
+    list-style: none;
+    line-height: 30px;
+}
+#footer a{
+    color: rgba(250,250,250,0.80);
+}
+#footer :hover {
+    text-decoration: none;
+    background-color: rgba(250,250,250,0);
+}
+
+.link-to {
+    padding-bottom: 20px;
+}

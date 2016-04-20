@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Articles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3">Controller</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @article.each do |article| %>
+      <tr>
+        <td><%= article.id %></td>
+        <td><%= article.title %></td>
+        <td><%= article.description %></td>
+        <td><%= link_to 'Show', article %></td>
+        <td><%= link_to 'Update', edit_article_path(article) %></td>
+        <td><%= link_to 'Delete', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<div class="col-sm-11 center link-to">
+ [ <%= link_to 'New Article', new_article_path %> ]
+</div>

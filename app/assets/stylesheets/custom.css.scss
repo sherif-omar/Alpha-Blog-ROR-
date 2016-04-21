@@ -21,12 +21,9 @@ $navbar-default-color: #FFF;
     text-shadow: 1px 3px rgba(10,10,10,0.20);
 }
 
-.center {
-    text-align: center;
-}
 
-li{
-    color: #FFF;
+li {
+    
 }
 
 .jumbotron {
@@ -36,7 +33,7 @@ li{
     
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     margin: -30px;
     margin-bottom: 20px;
     color: #FFF;
@@ -51,7 +48,28 @@ li{
     background: #333;
 }
 
-#footer {
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0px;
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
     background-color: #0c0c2a;
     color: #FFF;
     margin-bottom: 0px;
@@ -62,18 +80,18 @@ li{
     
 }
 
-#footer strong {
+footer strong {
     float: left;
 }
-#footer li {
+footer li {
     float: right;
     list-style: none;
     line-height: 30px;
 }
-#footer a{
+footer a{
     color: rgba(250,250,250,0.80);
 }
-#footer :hover {
+footer :hover {
     text-decoration: none;
     background-color: rgba(250,250,250,0);
 }

@@ -1,4 +1,8 @@
 <h1 class="text-center">Listing Articles</h1>
+<hr />
+<div class="col-xs-offset-9">
+ <%= link_to 'New Article', new_article_path, class: "btn btn-xs btn-primary btn-margin" %>
+</div>
 
 <% @article.each do |article| %>
   <div class="row">

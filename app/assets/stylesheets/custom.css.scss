@@ -22,9 +22,7 @@ $navbar-default-color: #FFF;
 }
 
 
-li {
-    
-}
+
 
 .jumbotron {
     background-image: asset-url('bg-cover.png');
@@ -67,6 +65,10 @@ li {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.btn-margin {
+    margin-bottom: 10px;
 }
 
 footer {

@@ -5,4 +5,5 @@ rvm:
 gemfile:
   - gemfiles/rails_5.gemfile
   - gemfiles/rails_4.gemfile
+before_install: gem update rails --without production
 install: gem install rails --without production

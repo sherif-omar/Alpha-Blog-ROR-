@@ -1,9 +1,10 @@
 language: ruby
     
 gemfile:
-  - gemfiles/rails_4.gemfile
+    - gemfiles/rails_4.gemfile
 before_install: 
     - gem update bundler
-    -rails update gem
-    -bundle update rake
-install: gem install rails 
+install: 
+    - rails update gem
+    - bundle update rake
+    - gem install rails 

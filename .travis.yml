@@ -1,12 +1,9 @@
 language: ruby
-rvm:
-    - 2.3.0
     
 gemfile:
-  - gemfiles/rails_5.gemfile
   - gemfiles/rails_4.gemfile
 before_install: 
     - gem update bundler
-    -rails update gems
+    -rails update gem
     -bundle update rake
 install: gem install rails 

@@ -8,5 +8,5 @@ gemfile:
   - gemfiles/rails_5.gemfile
   - gemfiles/rails_4.gemfile
   - gemfiles/rails_3.gemfile
-
+before_install: gem update rake
 install: gem install rails
